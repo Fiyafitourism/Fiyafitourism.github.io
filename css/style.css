@@ -294,7 +294,7 @@ html, body{ height: 100%; }
 	height:inherit;
 }
 .main-menu .navbar-default .navbar-nav li a{
-	color:#fff;
+	color: #1a80c3;
 }
 .main-menu nav li a{
 	padding: 43px 0px 15px;
@@ -360,7 +360,7 @@ html, body{ height: 100%; }
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: #202020;
+    background-color: #000000c2;
     transition: 0.5s;
     padding: 10px 0 0 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -371,7 +371,7 @@ html, body{ height: 100%; }
 }
 
 .fixed-menu .navbar-brand>img {
-    max-width: 150px;
+    max-width: 210px;
 }
 
 .fixed-menu .main-menu nav li a{
@@ -584,15 +584,32 @@ html, body{ height: 100%; }
 /*------------------------------------------------------------------
     ABOUT AREA
 -------------------------------------------------------------------*/
-
+.resposssss{
+	width: 100%; 
+	margin-bottom: 50px;
+}
+.criminal{
+	margin-left: -15px; 
+	margin-top: 94px;
+}
+@media screen and (max-width: 480px) {
+	.resposssss {
+		width: 108.7%;
+		margin-bottom: 50px;
+	}
+	.criminal{
+		margin-top: 81px;
+		margin-top: 81px;
+	}
+}
 .about-main{
 	background:#E6E6E6;
 }
 .pad-top-100{
-    padding-top: 90px;
+    padding-top: 45px;
 }
 .pad-bottom-100{
-	padding-bottom: 90px;
+	padding-bottom: 50px;
 }
 
 .pad-top-70{
@@ -1451,14 +1468,51 @@ html, body{ height: 100%; }
 
 .form-box input{
 	width:100%;
-	border:2px dotted #ccc;
+	border:none;
 	background:#f5f5f5;
+    border-bottom: 2px solid #1a80c3;
 	color:#202020;
 	padding:12px;
 	text-transform:capitalize;
 	border-radius: 4px;
 	opacity: 1;
 	min-height:54px;
+}
+.form-box input:active {
+    width: 100%;
+    border: none;
+    background: #f5f5f5;
+    color: #202020;
+    padding: 12px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    opacity: 1;
+    min-height: 54px;
+    border-bottom: 2px solid #1a80c3;
+}
+.form-box textarea{
+	width:100%;
+	border:none;
+	background:#f5f5f5;
+    border-bottom: 2px solid #1a80c3;
+	color:#202020;
+	padding:12px;
+	text-transform:capitalize;
+	border-radius: 4px;
+	opacity: 1;
+	min-height:54px;
+}
+textarea:active {
+    width: 100%;
+    border: none;
+    background: #f5f5f5;
+    color: #202020;
+    padding: 12px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    opacity: 1;
+    min-height: 54px;
+    border-bottom: 2px solid #1a80c3;
 }
 
 .form-box select{
